@@ -1,5 +1,5 @@
 ---
-title: go_get_golang_x_packages
+title: Go Get安装一些第三方库-网络问题
 date: 2017-03-08 18:56:51
 tags: [go]
 categories: go
@@ -17,7 +17,7 @@ git clone --depth=1 https://github.com/golang/xxx.git
 git clone --depth=1 https://github.com/golang/xxx.git
 
 ```
-> 注：xxx 为对应的需要的库
+注：xxx 为对应的需要的库
 
 下载完成后，`软链`或者`复制` 到 `$GOPATH/src/golang.org/x/` 下即可。
 ```
