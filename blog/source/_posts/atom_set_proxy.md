@@ -29,4 +29,4 @@ apm config set strict-ssl false
 
 > 其实直接修改 ~/.atom/.apmrc 文件也是可行的
 
-具体说明可以查看 [这里](https://github.com/atom/apm#behind-a-firewall)
+具体说明可以查看 [这里](https://github.com/atom/apm#behind-a-firewall)

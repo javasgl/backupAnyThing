@@ -5,9 +5,10 @@
 # Site
 title: Mr.song
 subtitle: step by step
-description:
+description: desc
 author: songgl
-language: zh-CN
+# language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -65,26 +66,9 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: hexo-theme-yilia
+# theme: hexo-theme-yilia
+theme: next
 
-jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: true
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

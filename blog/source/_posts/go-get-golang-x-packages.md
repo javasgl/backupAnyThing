@@ -29,3 +29,11 @@ golang.org/
 
 4 directories
 ```
+更为简便的方法：
+```
+mkdir -p $GOPATH/src/golang.org/x/
+cd !$
+git clone https://github.com/golang/net.git
+git clone https://github.com/golang/sys.git
+git clone https://github.com/golang/tools.git
+```
