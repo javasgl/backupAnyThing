@@ -2,7 +2,7 @@
 title: iptables使用笔记
 date: 2017-03-17 15:07:10
 tags: [Linux,iptables]
-categories: [notes]
+categories: notes
 ---
 
 #### Linux 下防火墙 `iptables` 命令使用笔记
@@ -25,7 +25,7 @@ categories: [notes]
 
 <!--more-->
 
-### examples
+#### examples
 
 `iptables -I INPUT -s 1.1.1.1 -p tcp -dport 6666 -m comment --comment "some comment" -j ACCEPT`
 - 向`INPUT`链中`I`(插入)一条规则,没有指定ruleNumber则插入到最前面
