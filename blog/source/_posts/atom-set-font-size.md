@@ -17,7 +17,6 @@ categories: tools
 }
 ```
 - 给 `.tree-view` 添加 `font-size` 即可：
-
 ```
 .tree-view {
     font-size:16px;
