@@ -1,7 +1,7 @@
 ---
 title: 压力测试工具ab、webbench、http_load、siege简单使用
 date: 2017-06-05 10:05:14
-tags: [test,ab]
+tags: [ab,webbench,http_load,siege]
 categories: [tools]
 ---
 本文简单介绍ab、http_load、webbench、siege四种压力测试工具的使用。
