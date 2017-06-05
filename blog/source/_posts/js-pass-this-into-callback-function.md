@@ -16,7 +16,8 @@ $.get('/url',function(res){
   console.log(res)
 },'json')
 ```
-那么经常这么使用的肯定遇到一个场景，就是:在回调函数中如何访问上下文中的`this`对象。
+那么经常这么使用的肯定会遇到一个场景，就是:在回调函数中如何访问上下文中的`this`对象?
+<!--more-->
 ```js
 function request(){
   //this
