@@ -2,7 +2,7 @@
 title: Mac上使用gdb单步调试golang程序
 date: 2017-06-07 22:29:40
 tags: [go,gdb,debug]
-categories:
+categories: [go]
 ---
 
 ## 单步调试
