@@ -32,7 +32,8 @@ mac 系统为了安全起见，不允许普通用户直接运行gdb,运行时会
 Unable to find Mach task port for process-id 4263: (os/kern) failure (0x5).
  (please check gdb is codesigned - see taskgated(8))
 ```
-这个问题，网络上已有解决方案，比如对gdb进行签名啥的，嫌麻烦，没有尝试。直接使用 `sudo gdb ..`来运行。可以自行设置命令alias。
+这个问题，网络上已有解决方案，比如对gdb进行签名啥的，嫌麻烦，没有尝试。详细步骤见[这里](https://sourceware.org/gdb/wiki/BuildingOnDarwin)
+这里直接使用 `sudo gdb ..`来运行。可以自行设置命令alias。
 
 ```
 alias gdb='sudo gdb'
