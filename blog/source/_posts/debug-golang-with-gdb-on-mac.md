@@ -9,14 +9,14 @@ categories: [go]
 
 最近在写`golang`程序的时候，想要想单步调试一下程序，减少手动`print log`调试代码的痛苦。
 
-找了一些golang单步调试的方案，主要有几下集中方案:
+找了一些golang单步调试的方案，主要有几下几种方案:
 
 - 使用 `SublimeGDB` 插件在`Sublime` 中调试
 - 使用 `Goland IDE` 调试,不过可惜`Goland`还未发布正式版本
 - 使用 `gdb` 工具调试
 
 每个都尝试了一遍:
-- `SublimeGDB` 界面不错，但是调试速度太慢，设置一个断点需要很长时间，故 pass 此方案。
+- `SublimeGDB` 界面不错，但是调试速度太慢，设置一个断点都需要很长时间，故 pass 此方案。
 - `Goland IDE` 只是预览版，有使用时间限制,还是等等吧，等 `Jetbrains` 出正式版后再去试试.(`Jetbrains`出品必属精品)
 - `gdb`调试，使用下来发现，目前而言，`gdb`的方式还是用的比较顺手的。
 
@@ -38,7 +38,7 @@ Unable to find Mach task port for process-id 4263: (os/kern) failure (0x5).
 ```
 alias gdb='sudo gdb'
 ```
-不过这样就得每次输入系统密码了。不过可以使用`expect` 来让命令行自动输入密码。
+不过这样就得每次输入系统密码了。不过可以使用 `expect` 来让命令行自动输入密码(这是后话)。
 
 ## 版本问题
 开始调试的时候遇到了一下问题：
