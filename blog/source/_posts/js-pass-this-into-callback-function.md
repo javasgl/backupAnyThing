@@ -41,18 +41,32 @@ function request(){
 
 使用 `bind`函数:
 ```js
+//axios
 function request(){
   axios.get('/url').then(function(res){
     console.log(this);
   }.bind(this));
 }
+//jquery
+function request(){
+  $.get('/url',function(res){
+    console.log(this);
+  }.bind(this),'json');
+}
 ```
 使用`ES6`的箭头函数:
 ```js
+//axios
 function request(){
   axios.get('/url').then((res)=>{
     console.log(this);
   ));
+}
+//juqery
+function request(){
+  $.get('/url',(res)=>{
+    console.log(this);
+  },'json');
 }
 ```
 参考:
