@@ -18,4 +18,4 @@ categories: tools
 	- go相关格式等工具：`fatih/vim-go`
 
 最后，附上一张命令行`IDE`效果图:
-![vim-ide](images/vim.png)
+![vim-ide](/images/vim.png)
