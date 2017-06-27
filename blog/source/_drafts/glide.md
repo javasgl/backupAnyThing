@@ -74,3 +74,7 @@ import:
 ## 其他
 
 其他的一些命令主要是帮助管理这些依赖的。详细见 http://glidedocs.readthedocs.io/zh/latest/commands/
+
+## 写在最后
+
+欢迎大家 star ,提交 issue 或者 fork 提交 pull request 来帮助我改进翻译质量。翻译项目地址: https://github.com/javasgl/GlideDocs
