@@ -1,3 +1,9 @@
+---
+title: Glide--golang 包管理工具简单教程
+date: 2017-07-08 23:06:00
+tags: ["glide","go"]
+categories: ["go"]
+---
 
  Golang挺好用的，但是目前比较受到诟病的是其没有自带包管理工具(golang社区已经发起了一个[dep](https://github.com/golang/dep)的项目，不过要正式被golang接受还需要一段时间)。官方没有咋办，那就自己造轮子呗。所以 go的包管理工具就五花八门、层出不穷了。目前有Glide, gopm, godep,gpm，gom等等。。。
 
@@ -8,6 +14,7 @@
 翻译的内容放在github上: https://github.com/javasgl/GlideDocs
 
 不想看文章的可以直接去看中文文档，文档写的很清晰，文档中关于`glide`的用法和原理都有说明。
+<!--more-->
 
 ## 安装
 
