@@ -44,4 +44,7 @@ git config --global https.proxy http://127.0.0.1:8118
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
-和其他 git 的配置一样，不使用命令行而是直接修改相应的 `.gitconfig` 文件也是可以的。
+和其他 git 的配置一样，不使用命令行而是直接修改相应的 `.gitconfig` 文件也是可以的。当然，如果不想修改 git 配置，而只是想临时使用一下，可以使用 -c 参数：
+```js
+git -c https.proxy=http://127.0.0.1:8118 clone --depth=1 https://github.com/xxx/xxx
+```
