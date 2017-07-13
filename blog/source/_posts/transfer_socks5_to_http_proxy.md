@@ -6,6 +6,7 @@ categories: tools
 ---
 
 shadowsocks 挺不错的，但是有些时候需要使用http代理来爬墙。这时候可以使用privoxy来将 socks5 代理转换为 http代理。
+## 配置
 
 步骤如下：
 
@@ -30,3 +31,17 @@ listen-address  127.0.0.1:8118
 ```
 可以使用 `ps aux|grep privoxy `和 `lsof -i:8118`来检查是否成功启动
 - 正常情况下,可以使用http代理了，代理地址`http://127.0.0.1:8118`
+
+## 示例
+
+例如，可以给 git 设置 http 或 https 代理,设置方式如下：
+```js
+git config --global http.proxy http://127.0.0.1:8118
+git config --global https.proxy http://127.0.0.1:8118
+```
+取消代理配置：
+```js
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+和其他 git 的配置一样，不使用命令行而是直接修改相应的 `.gitconfig` 文件也是可以的。
