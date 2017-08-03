@@ -2,7 +2,7 @@
 title: 阅读 php 源码，ctags 配合 vim 实现代码跳转 
 tags:
   - ctags
-categories: notes
+categories: php
 date: 2017-08-01 16:40:05
 ---
 
