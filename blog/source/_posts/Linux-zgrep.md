@@ -2,7 +2,7 @@
 title: Linux zgrep使用笔记
 date: 2017-03-17 17:20:05
 tags: [Linux,zgrep]
-categories: notes
+categories: Linux
 ---
 
 `grep` 可以用来搜索文件内容,而基于`grep`的 `zgrep`这可以用来在压缩包中搜索内容而不需要事先解压文件.

@@ -2,7 +2,7 @@
 title: shell脚本修改环境变量
 date: 2017-04-28 12:04:50
 tags: [Linux,Shell]
-categories: notes
+categories: Linux
 ---
 有时候编写go程序的时候需要将当前目录加到系统`GOPATH`中，不然就得将代码放置在已有的`GOPATH`之下。所以一般习惯在项目根目录执行创建一个`shell`脚本来动态的修改`GOPTAH`。
 脚本很简单，代码如下:

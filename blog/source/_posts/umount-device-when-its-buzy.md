@@ -1,8 +1,8 @@
 ---
 title: Linux强制卸载设备
 date: 2017-05-12 11:04:07
-tags: [Linux]
-categories: notes
+tags: [Linux,umount,fuser,losf]
+categories: Linux
 ---
 
 Linux下因为磁盘出问题而导致了`Input/output error`,所以准备先把有问题的磁盘卸载掉再重新挂上试试。

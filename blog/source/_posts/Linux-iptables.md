@@ -2,7 +2,7 @@
 title: iptables使用笔记
 date: 2017-03-17 15:07:10
 tags: [Linux,iptables]
-categories: notes
+categories: Linux
 ---
 
 #### Linux 下防火墙 `iptables` 命令使用笔记
