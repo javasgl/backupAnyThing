@@ -15,3 +15,81 @@ The webpage at http://localhost:6666/ might be temporarily down or it may have m
 ERR_UNSAFE_PORT
 ```
 报错信息中提到了 `ERR_UNSAFE_PORT`。
+
+解决方案：
+```
+/Applications/Google Chrome.app/Contents/MacOS/Google Chrome --explicitly-allowed-ports=6666,8888
+```
+或者换端口，避开Chrome的非安全端口限制。
+参考资料：
+- https://jazzy.id.au/2012/08/23/why_does_chrome_consider_some_ports_unsafe.html
+- https://support.google.com/chrome/forum/AAAAP1KN0B0l5d-nXEjLMM?hl=en
+<!--more-->
+Chrome 非安全端口列表如下：
+```
+  1,    // tcpmux
+  7,    // echo
+  9,    // discard
+  11,   // systat
+  13,   // daytime
+  15,   // netstat
+  17,   // qotd
+  19,   // chargen
+  20,   // ftp data
+  21,   // ftp access
+  22,   // ssh
+  23,   // telnet
+  25,   // smtp
+  37,   // time
+  42,   // name
+  43,   // nicname
+  53,   // domain
+  77,   // priv-rjs
+  79,   // finger
+  87,   // ttylink
+  95,   // supdup
+  101,  // hostriame
+  102,  // iso-tsap
+  103,  // gppitnp
+  104,  // acr-nema
+  109,  // pop2
+  110,  // pop3
+  111,  // sunrpc
+  113,  // auth
+  115,  // sftp
+  117,  // uucp-path
+  119,  // nntp
+  123,  // NTP
+  135,  // loc-srv /epmap
+  139,  // netbios
+  143,  // imap2
+  179,  // BGP
+  389,  // ldap
+  465,  // smtp+ssl
+  512,  // print / exec
+  513,  // login
+  514,  // shell
+  515,  // printer
+  526,  // tempo
+  530,  // courier
+  531,  // chat
+  532,  // netnews
+  540,  // uucp
+  556,  // remotefs
+  563,  // nntp+ssl
+  587,  // stmp?
+  601,  // ??
+  636,  // ldap+ssl
+  993,  // ldap+ssl
+  995,  // pop3+ssl
+  2049, // nfs
+  3659, // apple-sasl / PasswordServer
+  4045, // lockd
+  6000, // X11
+  6665, // Alternate IRC [Apple addition]
+  6666, // Alternate IRC [Apple addition]
+  6667, // Standard IRC [Apple addition]
+  6668, // Alternate IRC [Apple addition]
+  6669, // Alternate IRC [Apple addition]
+```
+
