@@ -298,7 +298,7 @@ duoshuo_shortname:
 #disqus_shortname:
 
 # Hypercomments
-#hypercomments_id:
+hypercomments_id: 94663
 
 # Gentie productKey
 #gentie_productKey:
@@ -325,7 +325,7 @@ duoshuo_shortname:
 #add_this_id:
 
 # Share
-duoshuo_share: true
+duoshuo_share: false
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
@@ -386,9 +386,9 @@ vkontakte_api:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: EzKAd7WHM6JBWdDS27Sd3CMa-gzGzoHsz
+  app_key: PpiY1yYD2ChLycCHqbPS4Pci
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -449,7 +449,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
