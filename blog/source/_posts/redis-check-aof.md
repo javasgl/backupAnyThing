@@ -1,8 +1,8 @@
 ---
-title:使用 redis-check-aof 命令修复 aof 文件
+title: 使用 redis-check-aof 命令修复 aof 文件
 date: 2017-08-23 18:27:30
 tags: [redis,aof]
-categories:[redis]
+categories: [redis]
 ---
 
 偶然的一天，发现redis一个实例无法启动，启动的时候，从 aof 文件往内存中加载数据的时候，出现了错误：
