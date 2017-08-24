@@ -2,7 +2,7 @@
 title: Elasticsearch function 中 doc , _fields , _source 使用
 date: 2017-08-21 12:07:40
 tags: [elasticsearch,function]
-categories:
+categories: [elasticsearch]
 ---
 
 面对复杂的查询或者算分逻辑，Elasticsearch 可以使用 Scrpits 脚本功能来实现，实际项目之中也用的非常频繁。
@@ -154,9 +154,3 @@ skus 字段是 object 类型的，可以用过 _source.skus 来访问。其实�
 
 - 如果访问单个字段，_fields 比 _source 快
 - 如果访问多个字段，_source 比 _fields 快
-
-
-
-
-
-
