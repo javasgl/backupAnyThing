@@ -16,6 +16,8 @@ Search Type 有助于理解 Elasticsearch 在多个分片(shard)的情况下，�
 
 Elasticsearch 中的 search type 主要有 6种：Query then fetch、Dfs Query then fetch、Count、Scan、Query and fetch、Dfs query and fetch。
 
+<!--more-->
+
 执行请求的过程中，涉及到几个不同的 search type。
 
 - Query then fetch
