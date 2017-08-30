@@ -19,12 +19,12 @@ categories: [notes]
 - 《设计模式之禅》 -- 秦小波
 - 《go In Action》（Go语言实战）--中文版
 - 《the way to go》（go语言程序设计）--中文版
-- 《build-web-application-with-golang》--github
 ....
 
 
 ### 已读
 
+- 《build-web-application-with-golang》--github
 - 《Go语言编程》 -- 许式伟
 - 《Go语言最佳实践》-- pdf
 - 《深入理解PHP内核》-- php-internal.com
