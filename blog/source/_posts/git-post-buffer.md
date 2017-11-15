@@ -14,5 +14,5 @@ fatal: The remote end hung up unexpectedly
 
 这时可以通过设置 http.postBuffer来解决。下面设置为100M。
 ```
-git config --global http.postBuffer=102400
+git config --global http.postBuffer=104857600
 ```
