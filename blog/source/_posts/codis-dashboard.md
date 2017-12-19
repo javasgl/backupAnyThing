@@ -29,7 +29,7 @@ codis-dashboard 重新起来之后，发现还是无法连接 codis。
 2017/08/31 14:45:09 proxy.go:191: [INFO] mark_offline, check proxy status:proxy_1<nil> zk: node does not exist
 2017/08/31 14:45:09 proxy.go:193: [INFO] shutdown proxy successful
 ```
-这时候需要访问 http://192.192.168.0.1:2181/admin ，找到最后的 proxy status。将相应的 proxy Mark Online 即可。
+这时候需要访问 http://192.192.168.0.1:28087/admin ，找到最后的 proxy status。将相应的 proxy Mark Online 即可。
 启动日志中也提到了，对于 kill -9 pid 停止 codis 的情况，需要手动删除 zookeeper 相应的节点。
 
 zookeeper 常用命令，使用 help 查看:
