@@ -12,6 +12,9 @@ RuntimeWarning: You're running the worker with superuser privileges: this is abs
 ```
 
 低版本的 celery 情况不清楚，但是 celery 4.1.0 版本中，这个警告是无法去除的。因为源码中是这样写的:
+
+<!--more-->
+
 ```python
 def check_privileges(accept_content):
     uid = os.getuid() if hasattr(os, 'getuid') else 65535
