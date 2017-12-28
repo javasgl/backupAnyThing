@@ -24,6 +24,7 @@ categories: [notes]
 
 ### 已读
 
+- 《Go By Example》-- github
 - 《build-web-application-with-golang》--github
 - 《Go语言编程》 -- 许式伟
 - 《Go语言最佳实践》-- pdf
