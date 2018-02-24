@@ -1,7 +1,7 @@
 ---
 title: 使用upx压缩可执行文件
 date: 2017-08-19 22:39:28
-tags: [upx,compress,golang]
+tags: [upx,compress,go]
 categories: [tools]
 ---
 
