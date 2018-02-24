@@ -24,10 +24,10 @@ func main(){
 		}
 		go handleConn(conn)
 	}
+}
 
-	func handleConn(conn net.Conn){
-		//do somethings
-	}
+func handleConn(conn net.Conn){
+	//do somethings
 }
 ```
 现在需要在此基础之上监听 http 连接,由于 http.ListenAndServe() 方法是阻塞的，所以需要新开goroutine进行监听，代码示意如下：
@@ -51,10 +51,10 @@ func main(){
 		}
 		go handleConn(conn)
 	}
+}
 
-	func handleConn(conn net.Conn){
-		//do somethings
-	}
+func handleConn(conn net.Conn){
+	//do somethings
 }
 
 ```
