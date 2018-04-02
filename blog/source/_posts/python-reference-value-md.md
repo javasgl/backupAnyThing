@@ -50,7 +50,7 @@ print(a)
 
 但是需要注意的是，这个 copy 方法是浅复制(shallow copy),那么它对于嵌套对象就无能为力了。
 如果需要复制嵌套对象，可以使用 import copy ,然后使用 `copy.deepcoopy()`来实现对嵌套对象的复制
-```
+```python
 import copy
 a = [1,2,3,[4,5]]
 # b = a.copy()
