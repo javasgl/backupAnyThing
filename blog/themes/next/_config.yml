@@ -298,7 +298,7 @@ duoshuo_shortname:
 #disqus_shortname:
 
 # Hypercomments
-hypercomments_id: 94663
+#hypercomments_id: 94663
 
 # Gentie productKey
 #gentie_productKey:
@@ -309,7 +309,7 @@ hypercomments_id: 94663
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zNzYyMS8xNDE1Mg==
 
 # Baidu Share
 # Available value:
