@@ -2,7 +2,7 @@
 title: js 回调函数访问上下文 this 对象
 date: 2017-05-27 18:10:14
 tags: ["js","es6"]
-categories: ["notes"]
+categories: ["javascript"]
 ---
 在开发项目之中，使用到js ajax 同服务端进行数据交互。一般图方便直接使用`jquery`或者`axios`等已有的库。
 一般代码如下:
