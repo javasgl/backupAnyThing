@@ -48,6 +48,8 @@ git submodule update --init
 
 简单记录如下，备查
 
+<!--more-->
+
 比如，想把 `submodule` 的地址换为 `github.com/xxx/xxx.git`
 
 1. 将 `submodule` 移除 `git` 版本控制
