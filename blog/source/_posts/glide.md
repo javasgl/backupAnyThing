@@ -48,7 +48,7 @@ import:
 
 ## 添加依赖
 
-运行`glide get`,类似于`go get`,不过不同的是，`glide get`会下载你指定包到`vendor/`目录中而不是之前的`GOPATH`之中。关于go的 `vendor/`目录请执行google，这是go 1.5版本之后的功能。
+运行`glide get`,类似于`go get`,不过不同的是，`glide get`会下载你指定包到`vendor/`目录中而不是之前的`GOPATH`之中。关于go的 `vendor/`目录请自行 google，这是go 1.5版本之后的功能。
 这个`glide get`下载包的同时，也会更新`glide.yaml`中的配置:
 ```
 ~/cods/xxxx/xxxx/:glide get https://github.com/garyburd/redigo
@@ -69,7 +69,7 @@ import:
 ## 更新依赖
 
 运行`glide up`来更新`glide.yaml`中配置的依赖包。
-首次运行的时候，会生成一个`glide.lock`文件，对php的`composer`熟悉的一样就知道这个锁文件是干嘛的了。这个锁文件是保证再次运行`glide up`的时候不会去远程获取更新，而是直接使用这个锁文件中定义的依赖包及其版本。在协作开发时，一般这个锁文件可以进行版本控制，这样其他人拿到这个锁文件之后，执行`glide up`则会获取锁文件中指定的包版本，起到多人协作开发时统一开发环境的问题。
+首次运行的时候，会生成一个`glide.lock`文件，对php的`composer`熟悉的一下就知道这个锁文件是干嘛的了。这个锁文件是保证再次运行`glide up`的时候不会去远程获取更新，而是直接使用这个锁文件中定义的依赖包及其版本。在协作开发时，一般这个锁文件可以进行版本控制，这样其他人拿到这个锁文件之后，执行`glide up`则会获取锁文件中指定的包版本，起到多人协作开发时统一开发环境的问题。
 ```
 ~/cods/xxxx/xxxx/:glide up
 [INFO]	Downloading dependencies. Please wait...
